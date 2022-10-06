@@ -1,0 +1,71 @@
+html, body {
+  background-color: #2f3136;
+  height: 100%;
+  width: 100%;
+}
+h1{
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  color: blue;
+  animation-name: albano;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes albano
+{
+  0%
+  {
+    opacity: 0;
+    
+  }
+  10%
+  {
+    opacity: 100;
+  }
+  20%
+  {
+    color: yellow;
+    opacity: 100;
+  }
+  30%
+  {
+    color: green;
+    opacity: 100;
+  }
+  40%
+  {
+    color: blue;
+    opacity: 100;
+  }
+  50%
+  {
+    color: yellow;
+    opacity: 100;
+  }
+  60%
+  {
+    color: green;
+    opacity: 100;
+  }
+  70%
+  {
+    color: blue;
+    opacity: 100;
+  }
+  80%
+  {
+    color: yellow;
+    opacity: 100;
+  }
+  90%
+  {
+    color: green;
+    opacity: 100;
+  }
+  100%
+  {
+    color: blue;
+    opacity: 100;
+  }
+}
